@@ -90,16 +90,6 @@
     self.mainView.frame = self.dragContentView.bounds;
 }
 
-- (void)dragingWithPoint:(CGPoint)pt offset:(BOOL)offset{
-//    NSLog(@"offset---------------%d",offset);
-//    NSLog(@"scrollEnabled---------------%d",self.mainView.scrollEnabled);
-    self.mainView.scrollEnabled = offset;
-}
-
-- (void)dragEndWithPoint:(CGPoint)pt shouldHideView:(BOOL)hideView {
-//    self.mainView.scrollEnabled = YES;
-}
-
 #pragma mark - UICollectionViewDelegate
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     return 2;
@@ -220,6 +210,10 @@
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     
     LTChannelCell *cell = (LTChannelCell *)[_mainView cellForItemAtIndexPath:indexPath];
+    
+    NSLog(@"indexPath.row----%ld",indexPath.row);
+    NSLog(@"indexPath.item----%ld",indexPath.item);
+    NSLog(@"indexPath.section----%ld",indexPath.section);
     
     if (indexPath.section == 0) {
         if (_isEdit) {  //编辑状态下
@@ -399,7 +393,6 @@
         offset.y = 0 ;
         scrollView.contentOffset = offset ;
     }
-//    NSLog(@"offset.y-------------%lf",offset.y);
 }
 
 #pragma mark - @property getter
@@ -413,6 +406,8 @@
         [collectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"head2"];
         collectionView.delegate = self;
         collectionView.dataSource = self;
+        collectionView.showsVerticalScrollIndicator = NO;
+        collectionView.showsHorizontalScrollIndicator = NO;
         collectionView.backgroundColor = [UIColor whiteColor];
         //添加长按的手势
         UILongPressGestureRecognizer *longPress=[[UILongPressGestureRecognizer alloc]initWithTarget:self action:@selector(longPress:)];

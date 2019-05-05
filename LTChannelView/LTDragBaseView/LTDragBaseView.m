@@ -52,7 +52,6 @@
     self.topSpace = 0;
     self.contentViewCornerRadius = 0;
     self.cornerEdge = UIRectCornerAllCorners;
-    [self addGestureRecognizer:self.panGesture];
     [self addSubview:self.dragViewBg];
     [self addSubview:self.dragContentView];
     
@@ -210,6 +209,13 @@
 - (void)setCornerEdge:(UIRectCorner)cornerEdge {
     _cornerEdge = cornerEdge;
     [self adjustCornerRadius];
+}
+
+- (void)setIsAddGesture:(BOOL)isAddGesture {
+    _isAddGesture = isAddGesture;
+    if (isAddGesture) {
+        [self.dragContentView addGestureRecognizer:self.panGesture];
+    }
 }
 
 #pragma mark - @property getter

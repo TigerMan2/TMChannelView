@@ -21,6 +21,8 @@
 @property (nonatomic, assign) CGFloat contentViewCornerRadius;
 /** 设定dragContentView的哪些边需要圆角 默认是所有边*/
 @property (nonatomic, assign) UIRectCorner cornerEdge;
+/** 是否添加手势 默认是NO */
+@property (nonatomic, assign) BOOL isAddGesture;
 
 /** 视图的展示与隐藏 */
 - (void)popIn;
