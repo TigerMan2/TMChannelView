@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AAD531A024233BDE00048DD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD5319F24233BDE00048DD9 /* AppDelegate.m */; };
-		AAD531A324233BDE00048DD9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD531A224233BDE00048DD9 /* SceneDelegate.m */; };
 		AAD531A624233BDE00048DD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD531A524233BDE00048DD9 /* ViewController.m */; };
 		AAD531A924233BDE00048DD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD531A724233BDE00048DD9 /* Main.storyboard */; };
 		AAD531AB24233BE200048DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD531AA24233BE200048DD9 /* Assets.xcassets */; };
@@ -44,8 +43,6 @@
 		AAD5319B24233BDE00048DD9 /* TMChannelView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMChannelView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD5319E24233BDE00048DD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AAD5319F24233BDE00048DD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AAD531A124233BDE00048DD9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		AAD531A224233BDE00048DD9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		AAD531A424233BDE00048DD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AAD531A524233BDE00048DD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AAD531A824233BDE00048DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -124,8 +121,6 @@
 				AAD531D324233C1300048DD9 /* TMChannelView */,
 				AAD5319E24233BDE00048DD9 /* AppDelegate.h */,
 				AAD5319F24233BDE00048DD9 /* AppDelegate.m */,
-				AAD531A124233BDE00048DD9 /* SceneDelegate.h */,
-				AAD531A224233BDE00048DD9 /* SceneDelegate.m */,
 				AAD531A424233BDE00048DD9 /* ViewController.h */,
 				AAD531A524233BDE00048DD9 /* ViewController.m */,
 				AAD531A724233BDE00048DD9 /* Main.storyboard */,
@@ -315,7 +310,6 @@
 				AAD531DA24233C2600048DD9 /* TMChannelCell.m in Sources */,
 				AAD531DB24233C2600048DD9 /* TMChannelModel.m in Sources */,
 				AAD531B124233BE200048DD9 /* main.m in Sources */,
-				AAD531A324233BDE00048DD9 /* SceneDelegate.m in Sources */,
 				AAD531DC24233C2600048DD9 /* TMChannelView.m in Sources */,
 				AAD531E224233C4000048DD9 /* TMDragBaseView.m in Sources */,
 				AAD531E324233C4000048DD9 /* UIView+TMFrame.m in Sources */,
