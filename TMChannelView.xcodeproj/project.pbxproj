@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAD531A024233BDE00048DD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD5319F24233BDE00048DD9 /* AppDelegate.m */; };
+		AAD531A324233BDE00048DD9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD531A224233BDE00048DD9 /* SceneDelegate.m */; };
+		AAD531A624233BDE00048DD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD531A524233BDE00048DD9 /* ViewController.m */; };
+		AAD531A924233BDE00048DD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD531A724233BDE00048DD9 /* Main.storyboard */; };
+		AAD531AB24233BE200048DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD531AA24233BE200048DD9 /* Assets.xcassets */; };
+		AAD531AE24233BE200048DD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD531AC24233BE200048DD9 /* LaunchScreen.storyboard */; };
+		AAD531B124233BE200048DD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD531B024233BE200048DD9 /* main.m */; };
+		AAD531BB24233BE200048DD9 /* TMChannelViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD531BA24233BE200048DD9 /* TMChannelViewTests.m */; };
+		AAD531C624233BE200048DD9 /* TMChannelViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD531C524233BE200048DD9 /* TMChannelViewUITests.m */; };
+		AAD531DA24233C2600048DD9 /* TMChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD531D624233C2600048DD9 /* TMChannelCell.m */; };
+		AAD531DB24233C2600048DD9 /* TMChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD531D824233C2600048DD9 /* TMChannelModel.m */; };
+		AAD531DC24233C2600048DD9 /* TMChannelView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD531D924233C2600048DD9 /* TMChannelView.m */; };
+		AAD531E224233C4000048DD9 /* TMDragBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD531DF24233C4000048DD9 /* TMDragBaseView.m */; };
+		AAD531E324233C4000048DD9 /* UIView+TMFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD531E024233C4000048DD9 /* UIView+TMFrame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAD531B724233BE200048DD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAD5319324233BDE00048DD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD5319A24233BDE00048DD9;
+			remoteInfo = TMChannelView;
+		};
+		AAD531C224233BE200048DD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAD5319324233BDE00048DD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD5319A24233BDE00048DD9;
+			remoteInfo = TMChannelView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAD5319B24233BDE00048DD9 /* TMChannelView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMChannelView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD5319E24233BDE00048DD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAD5319F24233BDE00048DD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAD531A124233BDE00048DD9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		AAD531A224233BDE00048DD9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		AAD531A424233BDE00048DD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAD531A524233BDE00048DD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAD531A824233BDE00048DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAD531AA24233BE200048DD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAD531AD24233BE200048DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAD531AF24233BE200048DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD531B024233BE200048DD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAD531B624233BE200048DD9 /* TMChannelViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMChannelViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD531BA24233BE200048DD9 /* TMChannelViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMChannelViewTests.m; sourceTree = "<group>"; };
+		AAD531BC24233BE200048DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD531C124233BE200048DD9 /* TMChannelViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMChannelViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD531C524233BE200048DD9 /* TMChannelViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMChannelViewUITests.m; sourceTree = "<group>"; };
+		AAD531C724233BE200048DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD531D424233C2600048DD9 /* TMChannelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMChannelCell.h; sourceTree = "<group>"; };
+		AAD531D524233C2600048DD9 /* TMChannelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMChannelView.h; sourceTree = "<group>"; };
+		AAD531D624233C2600048DD9 /* TMChannelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMChannelCell.m; sourceTree = "<group>"; };
+		AAD531D724233C2600048DD9 /* TMChannelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMChannelModel.h; sourceTree = "<group>"; };
+		AAD531D824233C2600048DD9 /* TMChannelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMChannelModel.m; sourceTree = "<group>"; };
+		AAD531D924233C2600048DD9 /* TMChannelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMChannelView.m; sourceTree = "<group>"; };
+		AAD531DE24233C4000048DD9 /* UIView+TMFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TMFrame.h"; sourceTree = "<group>"; };
+		AAD531DF24233C4000048DD9 /* TMDragBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDragBaseView.m; sourceTree = "<group>"; };
+		AAD531E024233C4000048DD9 /* UIView+TMFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TMFrame.m"; sourceTree = "<group>"; };
+		AAD531E124233C4000048DD9 /* TMDragBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDragBaseView.h; sourceTree = "<group>"; };
+		AAD531E424233DB400048DD9 /* TMChannelDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMChannelDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAD5319824233BDE00048DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD531B324233BE200048DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD531BE24233BE200048DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAD5319224233BDE00048DD9 = {
+			isa = PBXGroup;
+			children = (
+				AAD5319D24233BDE00048DD9 /* TMChannelView */,
+				AAD531B924233BE200048DD9 /* TMChannelViewTests */,
+				AAD531C424233BE200048DD9 /* TMChannelViewUITests */,
+				AAD5319C24233BDE00048DD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAD5319C24233BDE00048DD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAD5319B24233BDE00048DD9 /* TMChannelView.app */,
+				AAD531B624233BE200048DD9 /* TMChannelViewTests.xctest */,
+				AAD531C124233BE200048DD9 /* TMChannelViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAD5319D24233BDE00048DD9 /* TMChannelView */ = {
+			isa = PBXGroup;
+			children = (
+				AAD531DD24233C3000048DD9 /* TMDragBaseView */,
+				AAD531D324233C1300048DD9 /* TMChannelView */,
+				AAD5319E24233BDE00048DD9 /* AppDelegate.h */,
+				AAD5319F24233BDE00048DD9 /* AppDelegate.m */,
+				AAD531A124233BDE00048DD9 /* SceneDelegate.h */,
+				AAD531A224233BDE00048DD9 /* SceneDelegate.m */,
+				AAD531A424233BDE00048DD9 /* ViewController.h */,
+				AAD531A524233BDE00048DD9 /* ViewController.m */,
+				AAD531A724233BDE00048DD9 /* Main.storyboard */,
+				AAD531AA24233BE200048DD9 /* Assets.xcassets */,
+				AAD531AC24233BE200048DD9 /* LaunchScreen.storyboard */,
+				AAD531AF24233BE200048DD9 /* Info.plist */,
+				AAD531B024233BE200048DD9 /* main.m */,
+			);
+			path = TMChannelView;
+			sourceTree = "<group>";
+		};
+		AAD531B924233BE200048DD9 /* TMChannelViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD531BA24233BE200048DD9 /* TMChannelViewTests.m */,
+				AAD531BC24233BE200048DD9 /* Info.plist */,
+			);
+			path = TMChannelViewTests;
+			sourceTree = "<group>";
+		};
+		AAD531C424233BE200048DD9 /* TMChannelViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD531C524233BE200048DD9 /* TMChannelViewUITests.m */,
+				AAD531C724233BE200048DD9 /* Info.plist */,
+			);
+			path = TMChannelViewUITests;
+			sourceTree = "<group>";
+		};
+		AAD531D324233C1300048DD9 /* TMChannelView */ = {
+			isa = PBXGroup;
+			children = (
+				AAD531D424233C2600048DD9 /* TMChannelCell.h */,
+				AAD531D624233C2600048DD9 /* TMChannelCell.m */,
+				AAD531D724233C2600048DD9 /* TMChannelModel.h */,
+				AAD531D824233C2600048DD9 /* TMChannelModel.m */,
+				AAD531D524233C2600048DD9 /* TMChannelView.h */,
+				AAD531D924233C2600048DD9 /* TMChannelView.m */,
+			);
+			path = TMChannelView;
+			sourceTree = "<group>";
+		};
+		AAD531DD24233C3000048DD9 /* TMDragBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				AAD531E124233C4000048DD9 /* TMDragBaseView.h */,
+				AAD531DF24233C4000048DD9 /* TMDragBaseView.m */,
+				AAD531DE24233C4000048DD9 /* UIView+TMFrame.h */,
+				AAD531E024233C4000048DD9 /* UIView+TMFrame.m */,
+				AAD531E424233DB400048DD9 /* TMChannelDefine.h */,
+			);
+			path = TMDragBaseView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAD5319A24233BDE00048DD9 /* TMChannelView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD531CA24233BE200048DD9 /* Build configuration list for PBXNativeTarget "TMChannelView" */;
+			buildPhases = (
+				AAD5319724233BDE00048DD9 /* Sources */,
+				AAD5319824233BDE00048DD9 /* Frameworks */,
+				AAD5319924233BDE00048DD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMChannelView;
+			productName = TMChannelView;
+			productReference = AAD5319B24233BDE00048DD9 /* TMChannelView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAD531B524233BE200048DD9 /* TMChannelViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD531CD24233BE200048DD9 /* Build configuration list for PBXNativeTarget "TMChannelViewTests" */;
+			buildPhases = (
+				AAD531B224233BE200048DD9 /* Sources */,
+				AAD531B324233BE200048DD9 /* Frameworks */,
+				AAD531B424233BE200048DD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD531B824233BE200048DD9 /* PBXTargetDependency */,
+			);
+			name = TMChannelViewTests;
+			productName = TMChannelViewTests;
+			productReference = AAD531B624233BE200048DD9 /* TMChannelViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAD531C024233BE200048DD9 /* TMChannelViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD531D024233BE200048DD9 /* Build configuration list for PBXNativeTarget "TMChannelViewUITests" */;
+			buildPhases = (
+				AAD531BD24233BE200048DD9 /* Sources */,
+				AAD531BE24233BE200048DD9 /* Frameworks */,
+				AAD531BF24233BE200048DD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD531C324233BE200048DD9 /* PBXTargetDependency */,
+			);
+			name = TMChannelViewUITests;
+			productName = TMChannelViewUITests;
+			productReference = AAD531C124233BE200048DD9 /* TMChannelViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAD5319324233BDE00048DD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = mrstock;
+				TargetAttributes = {
+					AAD5319A24233BDE00048DD9 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					AAD531B524233BE200048DD9 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = AAD5319A24233BDE00048DD9;
+					};
+					AAD531C024233BE200048DD9 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = AAD5319A24233BDE00048DD9;
+					};
+				};
+			};
+			buildConfigurationList = AAD5319624233BDE00048DD9 /* Build configuration list for PBXProject "TMChannelView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAD5319224233BDE00048DD9;
+			productRefGroup = AAD5319C24233BDE00048DD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAD5319A24233BDE00048DD9 /* TMChannelView */,
+				AAD531B524233BE200048DD9 /* TMChannelViewTests */,
+				AAD531C024233BE200048DD9 /* TMChannelViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAD5319924233BDE00048DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD531AE24233BE200048DD9 /* LaunchScreen.storyboard in Resources */,
+				AAD531AB24233BE200048DD9 /* Assets.xcassets in Resources */,
+				AAD531A924233BDE00048DD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD531B424233BE200048DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD531BF24233BE200048DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAD5319724233BDE00048DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD531A624233BDE00048DD9 /* ViewController.m in Sources */,
+				AAD531A024233BDE00048DD9 /* AppDelegate.m in Sources */,
+				AAD531DA24233C2600048DD9 /* TMChannelCell.m in Sources */,
+				AAD531DB24233C2600048DD9 /* TMChannelModel.m in Sources */,
+				AAD531B124233BE200048DD9 /* main.m in Sources */,
+				AAD531A324233BDE00048DD9 /* SceneDelegate.m in Sources */,
+				AAD531DC24233C2600048DD9 /* TMChannelView.m in Sources */,
+				AAD531E224233C4000048DD9 /* TMDragBaseView.m in Sources */,
+				AAD531E324233C4000048DD9 /* UIView+TMFrame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD531B224233BE200048DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD531BB24233BE200048DD9 /* TMChannelViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD531BD24233BE200048DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD531C624233BE200048DD9 /* TMChannelViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAD531B824233BE200048DD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD5319A24233BDE00048DD9 /* TMChannelView */;
+			targetProxy = AAD531B724233BE200048DD9 /* PBXContainerItemProxy */;
+		};
+		AAD531C324233BE200048DD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD5319A24233BDE00048DD9 /* TMChannelView */;
+			targetProxy = AAD531C224233BE200048DD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAD531A724233BDE00048DD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD531A824233BDE00048DD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAD531AC24233BE200048DD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD531AD24233BE200048DD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAD531C824233BE200048DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAD531C924233BE200048DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAD531CB24233BE200048DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4634493CA;
+				INFOPLIST_FILE = TMChannelView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrstock.TMChannelView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AAD531CC24233BE200048DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4634493CA;
+				INFOPLIST_FILE = TMChannelView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrstock.TMChannelView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AAD531CE24233BE200048DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4634493CA;
+				INFOPLIST_FILE = TMChannelViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrstock.TMChannelViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMChannelView.app/TMChannelView";
+			};
+			name = Debug;
+		};
+		AAD531CF24233BE200048DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4634493CA;
+				INFOPLIST_FILE = TMChannelViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrstock.TMChannelViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMChannelView.app/TMChannelView";
+			};
+			name = Release;
+		};
+		AAD531D124233BE200048DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4634493CA;
+				INFOPLIST_FILE = TMChannelViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrstock.TMChannelViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TMChannelView;
+			};
+			name = Debug;
+		};
+		AAD531D224233BE200048DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4634493CA;
+				INFOPLIST_FILE = TMChannelViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrstock.TMChannelViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TMChannelView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAD5319624233BDE00048DD9 /* Build configuration list for PBXProject "TMChannelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD531C824233BE200048DD9 /* Debug */,
+				AAD531C924233BE200048DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD531CA24233BE200048DD9 /* Build configuration list for PBXNativeTarget "TMChannelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD531CB24233BE200048DD9 /* Debug */,
+				AAD531CC24233BE200048DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD531CD24233BE200048DD9 /* Build configuration list for PBXNativeTarget "TMChannelViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD531CE24233BE200048DD9 /* Debug */,
+				AAD531CF24233BE200048DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD531D024233BE200048DD9 /* Build configuration list for PBXNativeTarget "TMChannelViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD531D124233BE200048DD9 /* Debug */,
+				AAD531D224233BE200048DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAD5319324233BDE00048DD9 /* Project object */;
+}
